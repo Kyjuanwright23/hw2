@@ -1,0 +1,44 @@
+/* Goal 1: Flexbox Container */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: auto;
+    background-color: #f4f4f4;
+    padding: 2vw;
+    border-radius: 10px;
+}
+
+.item {
+    background-color: #0077b6;
+    color: white;
+    padding: 2vw;
+    text-align: center;
+    font-size: 2vw;
+    width: 20vw;
+    border-radius: 5px;
+}
+
+/* Goal 2: Use "vw" for responsive layout */
+header, main {
+    width: 100vw;
+    text-align: center;
+    font-size: 3vw;
+}
+
+header {
+    background-color: #023e8a;
+    color: white;
+    padding: 2vw;
+}
+
+/* Goal 3: Fixed Logo in Top Left */
+.logo {
+    position: fixed;
+    top: 1vw;
+    left: 1vw;
+    width: 5vw;
+    height: auto;
+}
